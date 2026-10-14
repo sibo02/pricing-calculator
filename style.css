@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    margin: 0;
+
+}
+main {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 28px;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form div {  
+    margin-bottom: 20px;
+   
+}
+label {
+   display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#calculateButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+#calculateButton:hover {
+    background-color: #1d4ed8;
+    
+}
+
+#results {
+    background-color: #f9fafb;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 25px;
+    
+}
+#total {
+    font-weight: bold;
+    color: #1d4ed8;
+}
+@media (max-width: 500px) {
+    main {
+        width: calc(100% - 30px);
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+input:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+#calculateButton:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
